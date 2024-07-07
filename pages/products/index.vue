@@ -5,8 +5,8 @@ const { data, pending, error, refresh, clear } = await useFetch(
 </script>
           <!-- Ommabop tovarlar -->
 <template>
-  <div class="container py-9 max-sm:px-3">
-    <nuxt-link to="/" class="text-[#454545] py-4">Главная ></nuxt-link>
+  <div class="container py-10 max-sm:px-3">
+    <nuxt-link to="/" class="text-[#454545] py-8">Главная ></nuxt-link>
     <h2 class="text-[#454545] text-3xl font-bold py-5">Популярные товары</h2>
 
     <div class="grid grid-cols-4 gap-5 max-sm:grid-cols-2">

@@ -39,7 +39,6 @@ const router = useRouter();
         <button v-if="isLiked">❤️</button>
         <button v-else>🤍</button>
       </button>
-
       <div>
         <img :src="props.product.image" alt="" class="w-[90%]" />
         <p class="text-[20px] font-medium py-3 h-[90px]">

@@ -9,7 +9,7 @@ definePageMeta({
     <MainCarousel />
     <MainKatalog />
     <MainNornlight />
-    <MainPopularProducts />
+    <MainFavouriteProducts />
     <MainMarque />
     <MainBlog />
     <MainBlog2 />

@@ -1,4 +1,3 @@
-// nuxt.config.js
 export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: [

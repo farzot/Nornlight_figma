@@ -62,7 +62,7 @@ const isLiked = computed(() => {
             </button>
           </div>
         </div>
-        <p class="text-green-500">В наличии</p>
+        <p class="text-green-600">В наличии</p>
         <div class="flex gap-10 items-center">
           <p class="text-3xl text-[#454545]">{{ item.price }}₽</p>
           <p class="line-through text-xl">{{ item.sale }}₽</p>

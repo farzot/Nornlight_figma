@@ -14,12 +14,12 @@ const hideModal = () => {
   <div class="max-sm:hidden container py-3">
     <div class="flex justify-between items-center .menu-item.selected">
       <div class="flex gap-4 .button-hover">
-        <nuxt-link to="/about_us">О компании</nuxt-link>
-        <nuxt-link to="/delivery">Доставка и оплата</nuxt-link>
-        <nuxt-link to="/return">Возврат</nuxt-link>
-        <nuxt-link to="/guarantee">Гарантии</nuxt-link>
-        <nuxt-link to="/contacts">Контакты</nuxt-link>
-        <nuxt-link to="/blog">Блог</nuxt-link>
+        <nuxt-link to="/AboutUs">О компании</nuxt-link>
+        <nuxt-link to="/Delivery">Доставка и оплата</nuxt-link>
+        <nuxt-link to="/Return">Возврат</nuxt-link>
+        <nuxt-link to="/Gaurantee">Гарантии</nuxt-link>
+        <nuxt-link to="/Contacts">Контакты</nuxt-link>
+        <nuxt-link to="/Blog">Блог</nuxt-link>
       </div>
       <div class="flex gap-4 items-center">
         <p class="text-[#454545] font-semibold">8 (800) 890-46-56</p>

@@ -72,7 +72,7 @@ const closeMenu = () => {
               {{ store.likedProducts.length }}
             </p>
           </nuxt-link>
-          <nuxt-link to="/likedProducts" class="flex flex-col items-center">
+          <nuxt-link to="/FavouriteProducts" class="flex flex-col items-center">
             <i class="bx bx-heart text-[20px] max-sm:text-3xl"></i>
             <p class="max-sm:hidden">Избранное</p>
           </nuxt-link>
@@ -91,7 +91,7 @@ const closeMenu = () => {
             </p>
           </nuxt-link>
           <nuxt-link
-            to="/korzina"
+            to="/karzina"
             class="flex flex-col items-center cursor-pointer"
           >
             <i class="bx bx-cart text-[20px] max-sm:text-3xl"></i>

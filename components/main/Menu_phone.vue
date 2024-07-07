@@ -25,7 +25,7 @@ const hideModal = () => {
       </button>
       <div class="flex flex-col gap-4 mt-10 justify-center items-center">
         <div class="border-b w-full text-center pb-5">
-          <nuxt-link to="/about_us" @click="props.closeMenu" class=""
+          <nuxt-link to="/aboutUs" @click="props.closeMenu" class=""
             >О компании</nuxt-link
           >
         </div>
@@ -38,7 +38,7 @@ const hideModal = () => {
           <nuxt-link to="/return" @click="props.closeMenu">Возврат</nuxt-link>
         </div>
         <div class="border-b w-full text-center pb-5">
-          <nuxt-link to="/guarantee" @click="props.closeMenu"
+          <nuxt-link to="/gaurantee" @click="props.closeMenu"
             >Гарантии</nuxt-link
           >
         </div>
@@ -70,5 +70,5 @@ const hideModal = () => {
 </template>
 
 <style scoped>
-/* Additional custom styles if needed */
+
 </style>

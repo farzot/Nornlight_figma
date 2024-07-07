@@ -4,7 +4,7 @@
   <div class="container max-sm:px-3">
     <div class="flex justify-between cursor-pointer group py-6">
       <h2 class="text-[#454545] text-3xl font-bold">Почему NORNLIGHT</h2>
-      <nuxt-link to="/about_us"
+      <nuxt-link to="/aboutUs"
         class="flex items-center gap-2 border rounded-lg py-2 px-4 border-black max-sm:hidden hover:bg-[#454545] hover:text-white"
       >
         <button>О компании</button>
@@ -45,7 +45,7 @@
         <p class="font-light">Более 1000 товаров</p>
       </div>
     </div>
-    <nuxt-link to="/about_us"
+    <nuxt-link to="/aboutUs"
       class="flex items-center justify-center gap-2 border rounded-full py-5 px-4 border-black md:hidden mt-10"
     >
       <button>О компании</button>
